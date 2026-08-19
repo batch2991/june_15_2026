@@ -1,0 +1,25 @@
+{
+  "name": "june_15_2026cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "posttest": "ts-node ./src/tests/utils/report.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "dotenv": "^17.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "6.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "multiple-cucumber-html-reporter": "^3.9.3"
+  }
+}
