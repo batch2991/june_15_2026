@@ -7,5 +7,13 @@ export class ProductsPage extends Base {
     async getProductHeading() {
         await this.page.waitForTimeout(3000)
         return await this.page.locator(this.heading).isVisible()
-    }    
+    }  
+    f1 (){
+        console.log ("hello world")
+
+
+    }
+    
+
+
 }
