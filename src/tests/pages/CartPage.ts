@@ -11,5 +11,6 @@ class CartPage
     getproductsinCart()
     {
         console.log("to get products")
-    }
+        console.log("hello")
+    }    
 }
