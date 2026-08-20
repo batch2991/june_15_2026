@@ -7,4 +7,8 @@ class CartPage
         await this.page.waitForTimeout(3000)
         console.log("product removed from cart")
     }
+    getproductsinCart()
+    {
+        console.log("to get products")
+    }
 }
