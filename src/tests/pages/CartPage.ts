@@ -5,6 +5,7 @@ class CartPage
     {
         console.log("code to remove product form cart")
         await this.page.waitForTimeout(3000)
+        await this.page.getTitle()
     }
     getproductsinCart()
     {
