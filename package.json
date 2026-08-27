@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js",
+    "test:smoke": "cucumber-js --tags @smoke",
+    "test:regression":"cucumber-js --tags @regression",
     "posttest": "ts-node ./src/tests/utils/report.ts"
   },
   "keywords": [],
